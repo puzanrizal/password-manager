@@ -55,11 +55,11 @@ PasswordManager/
 
 ### 1. Clone the repository
 
-git clone https://github.com/your-username/password-manager.git
+git clone https://github.com/your-username/password-manager.git <br>
 cd password-manager
 
 ### 2. Create and activate a virtual environment
-python -m venv venv
+python -m venv venv <br>
 venv\Scripts\activate
 
 ### 3. Install Dependencies
@@ -71,5 +71,5 @@ python main.py
 ---
 
 ## Author 
-**Pujan Rijal**
+**Pujan Rijal** <br>
 Github: [@puzanrizal](https://github.com/puzanrizal)
