@@ -16,37 +16,7 @@ A secure, lightweight password manager built with Python and Kivy, designed for 
 ---
 
 ## Project Structure
-PasswordManager/
-│
-├── 📁 core/                  # Core logic: encryption, password handling
-│   ├── __init__.py
-│   ├── encryption.py         # Handles encrypt/decrypt
-│   ├── password_manager.py   # Password CRUD operations (add, retrieve, delete)
-│   ├── auth.py               # Master password setup, login, hashing
-│
-├── 📁 ui/                    # Kivy App UI components
-│   ├── __init__.py
-│   ├── main_screen.kv        # Kivy Language (KV) file for main UI
-│   ├── login_screen.kv       # Login screen UI
-│   ├── add_password_screen.kv # Add password screen UI
-│   ├── screens.py            # Python screen manager
-│
-├── 📁 database/              # Data storage layer
-│   ├── __init__.py
-│   ├── db_handler.py         # Handles encrypted database or JSON file
-│
-├── 📁 assets/                # Icons, logos, images
-│   ├── logo.png
-│   ├── app_icon.ico
-│
-├── 📁 utils/                 # Utilities, helpers
-│   ├── __init__.py
-│   ├── password_generator.py # Random password generator
-│
-├── main.py                   # App entry point
-├── requirements.txt          # Python dependencies
-├── README.md                 # Project overview and instructions
-└── LICENSE                   # (Optional) Open source license
+password-manager/ │ ├── core/ # Core logic for encryption and password management │ ├── init.py │ ├── encryption.py # Handles encryption/decryption │ ├── password_manager.py # Add/retrieve/list passwords │ └── auth.py # Master password setup and verification │ ├── database/ # SQLite database handler │ ├── init.py │ └── db_handler.py │ ├── ui/ # Kivy UI components │ ├── init.py │ ├── main_screen.kv │ ├── login_screen.kv │ ├── add_password_screen.kv │ └── screens.py │ ├── utils/ # Utility modules │ ├── init.py │ └── password_generator.py # Random password suggestion logic │ ├── assets/ # Images, icons, etc. │ ├── logo.png │ └── app_icon.ico │ ├── main.py # Application entry point ├── requirements.txt # Project dependencies ├── README.md # Project overview and setup guide └── .gitignore # Ignored files and folders
 
 
 ---
